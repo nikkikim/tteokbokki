@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+        <script
+            src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js"
+            defer>
+        </script>
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    </head>
+    <body>
+
+        <div style="display:none;" id="content2" class="content">
+<div> 
+                <img class="full-img" src="3.jpg" alt=""/>
+<img class="full-img" src="dont.jpg" alt=""/>
+               </div> 
+            <div class="chapter" id="4thebirth">
+
+
+            <model-viewer
+                class="vrContent"
+                style="width:100vw;height:100vw;max-width:95%;margin-bottom:30vw;"
+                src="2.gltf"
+                ios-src="123.usdz"
+                alt=""
+                shadow-intensity="0.1"
+                exposure=".7"
+                camera-controls
+                environment-image="bl.jpg"
+                auto-rotate
+                ar
+            >
+                <input type="image" src="vr.png" slot="ar-button" style="border: none; position: absolute; bottom:3vw;right:2vw;"/>
+            </model-viewer>
+
+
+
+            </div>
+
+           
+
+
+    </body>
+</html>
