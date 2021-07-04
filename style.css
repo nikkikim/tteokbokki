@@ -148,7 +148,7 @@ model-viewer{
 
 @font-face {
     font-family: Dosis-ExtraLight;
-    src: url("fonts/Dosis-ExtraLight.ttf") format('truetype');
+    src: url("font.ttf") format('truetype');
 }
 
 @font-face {
