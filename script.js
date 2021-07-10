@@ -32,6 +32,8 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 window.onload = function (){
     if (!isMobile){
         document.getElementById('content2').style.display = 'none';
+    } else {
+        document.getElementById('content2').style.display = 'block';
     }
     // if (document.getElementById('video2') != undefined){
     //     document.getElementById('video2').addEventListener('ended', videoHandler, false);
